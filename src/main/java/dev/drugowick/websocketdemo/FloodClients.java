@@ -13,7 +13,7 @@ public class FloodClients {
 
     private final SimpMessagingTemplate simpMessagingTemplate;
 
-    @Scheduled(fixedRate = 5000L)
+    @Scheduled(fixedRate = 4000L)
     public void greeting() throws Exception {
         Random random = new Random();
 
